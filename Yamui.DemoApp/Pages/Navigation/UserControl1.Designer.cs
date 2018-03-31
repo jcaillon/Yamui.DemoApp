@@ -28,9 +28,9 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.yamuiLabel1 = new YamuiFramework.Controls.YamuiLabel();
+            this.yamuiLabel1 = new Yamui.Framework.Controls.YamuiLabel();
             this.scrollPanelTest1 = new YamuiDemoApp.Pages.Navigation.ScrollPanelTest();
-            this.htmlLabel1 = new YamuiFramework.HtmlRenderer.WinForms.HtmlLabel();
+            this.htmlLabel1 = new Yamui.Framework.HtmlRenderer.WinForms.HtmlLabel();
             this.SuspendLayout();
             // 
             // yamuiLabel1
@@ -76,8 +76,8 @@
         }
 
         #endregion
-        private YamuiFramework.Controls.YamuiLabel yamuiLabel1;
+        private Yamui.Framework.Controls.YamuiLabel yamuiLabel1;
         private ScrollPanelTest scrollPanelTest1;
-        private YamuiFramework.HtmlRenderer.WinForms.HtmlLabel htmlLabel1;
+        private Yamui.Framework.HtmlRenderer.WinForms.HtmlLabel htmlLabel1;
     }
 }

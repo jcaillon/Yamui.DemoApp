@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
-using YamuiFramework.Controls;
-using YamuiFramework.HtmlRenderer.WinForms;
+using Yamui.Framework.Controls;
+using Yamui.Framework.HtmlRenderer.WinForms;
 
 namespace YamuiDemoApp.Pages.control {
     partial class Text {
@@ -27,23 +27,23 @@ namespace YamuiDemoApp.Pages.control {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.htmlToolTip1 = new YamuiFramework.HtmlRenderer.WinForms.HtmlToolTip();
-            this.yamuiTextBox1 = new YamuiFramework.Controls.YamuiTextBox();
-            this.yamuiLabel18 = new YamuiFramework.Controls.YamuiLabel();
-            this.htmlPanel1 = new YamuiFramework.HtmlRenderer.WinForms.HtmlPanel();
-            this.htmlLabel1 = new YamuiFramework.HtmlRenderer.WinForms.HtmlLabel();
-            this.yamuiLabel15 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiLink1 = new YamuiFramework.Controls.YamuiButtonLink();
-            this.yamuiLink2 = new YamuiFramework.Controls.YamuiButtonLink();
-            this.yamuiLabel12 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiLabel17 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiTextBox2 = new YamuiFramework.Controls.YamuiTextBox();
-            this.yamuiLabel16 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiTextBox3 = new YamuiFramework.Controls.YamuiTextBox();
-            this.yamuiLabel14 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiTextBox4 = new YamuiFramework.Controls.YamuiTextBox();
-            this.yamuiLabel13 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiTextBox5 = new YamuiFramework.Controls.YamuiTextBox();
+            this.htmlToolTip1 = new Yamui.Framework.HtmlRenderer.WinForms.HtmlToolTip();
+            this.yamuiTextBox1 = new Yamui.Framework.Controls.YamuiTextBox();
+            this.yamuiLabel18 = new Yamui.Framework.Controls.YamuiLabel();
+            this.htmlPanel1 = new Yamui.Framework.HtmlRenderer.WinForms.HtmlPanel();
+            this.htmlLabel1 = new Yamui.Framework.HtmlRenderer.WinForms.HtmlLabel();
+            this.yamuiLabel15 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiLink1 = new Yamui.Framework.Controls.YamuiButtonLink();
+            this.yamuiLink2 = new Yamui.Framework.Controls.YamuiButtonLink();
+            this.yamuiLabel12 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiLabel17 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiTextBox2 = new Yamui.Framework.Controls.YamuiTextBox();
+            this.yamuiLabel16 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiTextBox3 = new Yamui.Framework.Controls.YamuiTextBox();
+            this.yamuiLabel14 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiTextBox4 = new Yamui.Framework.Controls.YamuiTextBox();
+            this.yamuiLabel13 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiTextBox5 = new Yamui.Framework.Controls.YamuiTextBox();
             this.SuspendLayout();
             // 
             // htmlToolTip1
@@ -75,7 +75,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel18
             // 
             this.yamuiLabel18.AutoSize = true;
-            this.yamuiLabel18.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel18.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel18.Location = new System.Drawing.Point(203, 100);
             this.yamuiLabel18.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel18.Name = "yamuiLabel18";
@@ -139,7 +139,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLink1
             // 
             this.yamuiLink1.BackGrndImage = null;
-            this.yamuiLink1.Function = YamuiFramework.Fonts.FontFunction.Link;
+            this.yamuiLink1.Function = Yamui.Framework.Fonts.FontFunction.Link;
             this.yamuiLink1.GreyScaleBackGrndImage = null;
             this.yamuiLink1.IsFocused = false;
             this.yamuiLink1.IsHovered = false;
@@ -156,7 +156,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             this.yamuiLink2.BackGrndImage = null;
             this.yamuiLink2.Enabled = false;
-            this.yamuiLink2.Function = YamuiFramework.Fonts.FontFunction.Link;
+            this.yamuiLink2.Function = Yamui.Framework.Fonts.FontFunction.Link;
             this.yamuiLink2.GreyScaleBackGrndImage = null;
             this.yamuiLink2.IsFocused = false;
             this.yamuiLink2.IsHovered = false;
@@ -172,7 +172,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel12
             // 
             this.yamuiLabel12.AutoSize = true;
-            this.yamuiLabel12.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel12.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel12.Location = new System.Drawing.Point(0, 0);
             this.yamuiLabel12.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel12.Name = "yamuiLabel12";
@@ -237,7 +237,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel14
             // 
             this.yamuiLabel14.AutoSize = true;
-            this.yamuiLabel14.Function = YamuiFramework.Fonts.FontFunction.Title;
+            this.yamuiLabel14.Function = Yamui.Framework.Fonts.FontFunction.Title;
             this.yamuiLabel14.Location = new System.Drawing.Point(203, 19);
             this.yamuiLabel14.Margin = new System.Windows.Forms.Padding(5);
             this.yamuiLabel14.Name = "yamuiLabel14";
@@ -265,7 +265,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel13
             // 
             this.yamuiLabel13.AutoSize = true;
-            this.yamuiLabel13.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel13.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel13.Location = new System.Drawing.Point(203, 0);
             this.yamuiLabel13.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel13.Name = "yamuiLabel13";

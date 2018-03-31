@@ -2,10 +2,10 @@
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
-using YamuiFramework.Controls;
-using YamuiFramework.Helper;
-using YamuiFramework.HtmlRenderer.WinForms;
-using YamuiFramework.Themes;
+using Yamui.Framework.Controls;
+using Yamui.Framework.Helper;
+using Yamui.Framework.HtmlRenderer.WinForms;
+using Yamui.Framework.Themes;
 
 namespace YamuiDemoApp.Pages {
     public partial class SettingAppearance : YamuiPage {

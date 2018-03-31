@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Windows.Forms;
 using YamuiDemoApp.Pages.control;
 using YamuiDemoApp.Pages.Navigation;
-using YamuiFramework.Controls;
-using YamuiFramework.Forms;
+using Yamui.Framework.Controls;
+using Yamui.Framework.Forms;
 
 namespace YamuiDemoApp {
     public partial class Form1 : YamuiMainAppli {

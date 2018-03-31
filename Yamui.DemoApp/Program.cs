@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
-using YamuiFramework.Forms;
-using YamuiFramework.Themes;
+using Yamui.Framework.Forms;
+using Yamui.Framework.Themes;
 
 namespace YamuiDemoApp {
 

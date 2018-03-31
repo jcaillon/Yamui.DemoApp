@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using YamuiFramework.Controls;
+using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp.Pages.control {
     partial class ItemControl {
@@ -26,12 +26,12 @@ namespace YamuiDemoApp.Pages.control {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.yamuiComboBox2 = new YamuiFramework.Controls.YamuiComboBox();
-            this.yamuiLabel11 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiComboBox1 = new YamuiFramework.Controls.YamuiComboBox();
-            this.yamuiLabel7 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiTrackBar1 = new YamuiFramework.Controls.YamuiSlider();
-            this.yamuiTrackBar2 = new YamuiFramework.Controls.YamuiSlider();
+            this.yamuiComboBox2 = new Yamui.Framework.Controls.YamuiComboBox();
+            this.yamuiLabel11 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiComboBox1 = new Yamui.Framework.Controls.YamuiComboBox();
+            this.yamuiLabel7 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiTrackBar1 = new Yamui.Framework.Controls.YamuiSlider();
+            this.yamuiTrackBar2 = new Yamui.Framework.Controls.YamuiSlider();
             this.SuspendLayout();
             // 
             // yamuiComboBox2
@@ -50,7 +50,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel11
             // 
-            this.yamuiLabel11.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel11.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel11.Location = new System.Drawing.Point(0, 87);
             this.yamuiLabel11.Margin = new System.Windows.Forms.Padding(5, 18, 5, 7);
             this.yamuiLabel11.Name = "yamuiLabel11";
@@ -75,7 +75,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel7
             // 
-            this.yamuiLabel7.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel7.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel7.Location = new System.Drawing.Point(0, 0);
             this.yamuiLabel7.Margin = new System.Windows.Forms.Padding(5, 18, 5, 7);
             this.yamuiLabel7.Name = "yamuiLabel7";

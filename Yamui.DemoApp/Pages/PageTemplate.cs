@@ -1,5 +1,5 @@
 ﻿using System.Windows.Forms;
-using YamuiFramework.Controls;
+using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp.Pages {
     public partial class PageTemplate : YamuiPage {

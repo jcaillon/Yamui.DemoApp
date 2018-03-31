@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using YamuiFramework.Controls;
+using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp.Pages.control {
     partial class Classic {
@@ -27,31 +27,31 @@ namespace YamuiDemoApp.Pages.control {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.yamuiCharButton5 = new YamuiFramework.Controls.YamuiButtonChar();
-            this.yamuiCharButton4 = new YamuiFramework.Controls.YamuiButtonChar();
-            this.yamuiCharButton3 = new YamuiFramework.Controls.YamuiButtonChar();
-            this.yamuiCharButton2 = new YamuiFramework.Controls.YamuiButtonChar();
-            this.yamuiCharButton1 = new YamuiFramework.Controls.YamuiButtonChar();
-            this.yamuiToggle3 = new YamuiFramework.Controls.YamuiButtonToggle();
-            this.yamuiToggle2 = new YamuiFramework.Controls.YamuiButtonToggle();
-            this.yamuiToggle1 = new YamuiFramework.Controls.YamuiButtonToggle();
-            this.yamuiButton5 = new YamuiFramework.Controls.YamuiButton();
-            this.yamuiButton4 = new YamuiFramework.Controls.YamuiButton();
-            this.yamuiLabel8 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiRadioButton2 = new YamuiFramework.Controls.YamuiRadioButton();
-            this._yamuiSimplePanel2 = new YamuiFramework.Controls.YamuiSimplePanel();
-            this.yamuiRadioButton1 = new YamuiFramework.Controls.YamuiRadioButton();
-            this.yamuiRadioButton3 = new YamuiFramework.Controls.YamuiRadioButton();
-            this.yamuiRadioButton4 = new YamuiFramework.Controls.YamuiRadioButton();
-            this.yamuiLabel3 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiCheckBox4 = new YamuiFramework.Controls.YamuiCheckBox();
-            this.yamuiCheckBox3 = new YamuiFramework.Controls.YamuiCheckBox();
-            this.yamuiCheckBox2 = new YamuiFramework.Controls.YamuiCheckBox();
-            this.yamuiCheckBox1 = new YamuiFramework.Controls.YamuiCheckBox();
-            this.yamuiLabel2 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiLabel1 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiButton2 = new YamuiFramework.Controls.YamuiButton();
-            this.yamuiButton1 = new YamuiFramework.Controls.YamuiButton();
+            this.yamuiCharButton5 = new Yamui.Framework.Controls.YamuiButtonChar();
+            this.yamuiCharButton4 = new Yamui.Framework.Controls.YamuiButtonChar();
+            this.yamuiCharButton3 = new Yamui.Framework.Controls.YamuiButtonChar();
+            this.yamuiCharButton2 = new Yamui.Framework.Controls.YamuiButtonChar();
+            this.yamuiCharButton1 = new Yamui.Framework.Controls.YamuiButtonChar();
+            this.yamuiToggle3 = new Yamui.Framework.Controls.YamuiButtonToggle();
+            this.yamuiToggle2 = new Yamui.Framework.Controls.YamuiButtonToggle();
+            this.yamuiToggle1 = new Yamui.Framework.Controls.YamuiButtonToggle();
+            this.yamuiButton5 = new Yamui.Framework.Controls.YamuiButton();
+            this.yamuiButton4 = new Yamui.Framework.Controls.YamuiButton();
+            this.yamuiLabel8 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiRadioButton2 = new Yamui.Framework.Controls.YamuiRadioButton();
+            this._yamuiSimplePanel2 = new Yamui.Framework.Controls.YamuiSimplePanel();
+            this.yamuiRadioButton1 = new Yamui.Framework.Controls.YamuiRadioButton();
+            this.yamuiRadioButton3 = new Yamui.Framework.Controls.YamuiRadioButton();
+            this.yamuiRadioButton4 = new Yamui.Framework.Controls.YamuiRadioButton();
+            this.yamuiLabel3 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiCheckBox4 = new Yamui.Framework.Controls.YamuiCheckBox();
+            this.yamuiCheckBox3 = new Yamui.Framework.Controls.YamuiCheckBox();
+            this.yamuiCheckBox2 = new Yamui.Framework.Controls.YamuiCheckBox();
+            this.yamuiCheckBox1 = new Yamui.Framework.Controls.YamuiCheckBox();
+            this.yamuiLabel2 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiLabel1 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiButton2 = new Yamui.Framework.Controls.YamuiButton();
+            this.yamuiButton1 = new Yamui.Framework.Controls.YamuiButton();
             this._yamuiSimplePanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiCharButton5.BackGrndImage = null;
             this.yamuiCharButton5.ButtonChar = "!";
             this.yamuiCharButton5.GreyScaleBackGrndImage = null;
-            this.yamuiCharButton5.IconFontName = YamuiFramework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
+            this.yamuiCharButton5.IconFontName = Yamui.Framework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
             this.yamuiCharButton5.IsFocused = false;
             this.yamuiCharButton5.IsHovered = false;
             this.yamuiCharButton5.IsPressed = false;
@@ -76,7 +76,7 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiCharButton4.BackGrndImage = null;
             this.yamuiCharButton4.ButtonChar = "J";
             this.yamuiCharButton4.GreyScaleBackGrndImage = null;
-            this.yamuiCharButton4.IconFontName = YamuiFramework.Controls.YamuiButtonChar.IconFontNameEnum.Wingdings_3;
+            this.yamuiCharButton4.IconFontName = Yamui.Framework.Controls.YamuiButtonChar.IconFontNameEnum.Wingdings_3;
             this.yamuiCharButton4.IsFocused = false;
             this.yamuiCharButton4.IsHovered = false;
             this.yamuiCharButton4.IsPressed = false;
@@ -92,7 +92,7 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiCharButton3.BackGrndImage = null;
             this.yamuiCharButton3.ButtonChar = "B";
             this.yamuiCharButton3.GreyScaleBackGrndImage = null;
-            this.yamuiCharButton3.IconFontName = YamuiFramework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
+            this.yamuiCharButton3.IconFontName = Yamui.Framework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
             this.yamuiCharButton3.IsFocused = false;
             this.yamuiCharButton3.IsHovered = false;
             this.yamuiCharButton3.IsPressed = false;
@@ -108,7 +108,7 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiCharButton2.BackGrndImage = null;
             this.yamuiCharButton2.ButtonChar = "Y";
             this.yamuiCharButton2.GreyScaleBackGrndImage = null;
-            this.yamuiCharButton2.IconFontName = YamuiFramework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
+            this.yamuiCharButton2.IconFontName = Yamui.Framework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
             this.yamuiCharButton2.IsFocused = false;
             this.yamuiCharButton2.IsHovered = false;
             this.yamuiCharButton2.IsPressed = false;
@@ -124,7 +124,7 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiCharButton1.BackGrndImage = null;
             this.yamuiCharButton1.ButtonChar = "é";
             this.yamuiCharButton1.GreyScaleBackGrndImage = null;
-            this.yamuiCharButton1.IconFontName = YamuiFramework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
+            this.yamuiCharButton1.IconFontName = Yamui.Framework.Controls.YamuiButtonChar.IconFontNameEnum.Webdings;
             this.yamuiCharButton1.IsFocused = false;
             this.yamuiCharButton1.IsHovered = false;
             this.yamuiCharButton1.IsPressed = false;
@@ -215,7 +215,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel8
             // 
-            this.yamuiLabel8.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel8.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel8.Location = new System.Drawing.Point(0, 212);
             this.yamuiLabel8.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel8.Name = "yamuiLabel8";
@@ -272,7 +272,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel3
             // 
-            this.yamuiLabel3.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel3.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel3.Location = new System.Drawing.Point(235, 91);
             this.yamuiLabel3.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel3.Name = "yamuiLabel3";
@@ -323,7 +323,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel2
             // 
-            this.yamuiLabel2.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel2.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel2.Location = new System.Drawing.Point(0, 91);
             this.yamuiLabel2.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel2.Name = "yamuiLabel2";
@@ -333,7 +333,7 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiLabel1
             // 
-            this.yamuiLabel1.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel1.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel1.Location = new System.Drawing.Point(0, 0);
             this.yamuiLabel1.Margin = new System.Windows.Forms.Padding(20, 5, 5, 7);
             this.yamuiLabel1.Name = "yamuiLabel1";

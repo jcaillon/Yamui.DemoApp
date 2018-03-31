@@ -1,4 +1,4 @@
-﻿using YamuiFramework.Controls;
+﻿using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp.Pages.control {
     public partial class Text : YamuiPage {

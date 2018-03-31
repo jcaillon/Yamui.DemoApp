@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel;
-using YamuiFramework.Controls;
-using YamuiFramework.Fonts;
+using Yamui.Framework.Controls;
+using Yamui.Framework.Fonts;
 
 namespace YamuiDemoApp.Pages.control {
     partial class Progress {
@@ -27,14 +27,14 @@ namespace YamuiDemoApp.Pages.control {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.yamuiProgressIndicator2 = new YamuiFramework.Controls.YamuiProgressIndicator();
-            this.yamuiProgressIndicator1 = new YamuiFramework.Controls.YamuiProgressIndicator();
-            this.yamuiLabel4 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiLabel9 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiProgressBar1 = new YamuiFramework.Controls.YamuiProgressBar();
-            this.yamuiProgressBar2 = new YamuiFramework.Controls.YamuiProgressBar();
-            this.yamuiLabel5 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiProgressBar3 = new YamuiFramework.Controls.YamuiProgressBar();
+            this.yamuiProgressIndicator2 = new Yamui.Framework.Controls.YamuiProgressIndicator();
+            this.yamuiProgressIndicator1 = new Yamui.Framework.Controls.YamuiProgressIndicator();
+            this.yamuiLabel4 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiLabel9 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiProgressBar1 = new Yamui.Framework.Controls.YamuiProgressBar();
+            this.yamuiProgressBar2 = new Yamui.Framework.Controls.YamuiProgressBar();
+            this.yamuiLabel5 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiProgressBar3 = new Yamui.Framework.Controls.YamuiProgressBar();
             this.SuspendLayout();
             // 
             // yamuiScrollPage1
@@ -76,7 +76,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel4
             // 
             this.yamuiLabel4.AutoSize = true;
-            this.yamuiLabel4.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel4.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel4.Location = new System.Drawing.Point(0, 0);
             this.yamuiLabel4.Margin = new System.Windows.Forms.Padding(5, 18, 5, 7);
             this.yamuiLabel4.Name = "yamuiLabel4";
@@ -87,7 +87,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel9
             // 
             this.yamuiLabel9.AutoSize = true;
-            this.yamuiLabel9.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel9.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel9.Location = new System.Drawing.Point(0, 185);
             this.yamuiLabel9.Margin = new System.Windows.Forms.Padding(5, 18, 5, 7);
             this.yamuiLabel9.Name = "yamuiLabel9";
@@ -117,7 +117,7 @@ namespace YamuiDemoApp.Pages.control {
             // yamuiLabel5
             // 
             this.yamuiLabel5.AutoSize = true;
-            this.yamuiLabel5.Function = YamuiFramework.Fonts.FontFunction.Heading;
+            this.yamuiLabel5.Function = Yamui.Framework.Fonts.FontFunction.Heading;
             this.yamuiLabel5.Location = new System.Drawing.Point(0, 123);
             this.yamuiLabel5.Margin = new System.Windows.Forms.Padding(5, 18, 5, 7);
             this.yamuiLabel5.Name = "yamuiLabel5";
@@ -127,13 +127,13 @@ namespace YamuiDemoApp.Pages.control {
             // 
             // yamuiProgressBar3
             // 
-            this.yamuiProgressBar3.CenterText = YamuiFramework.Controls.CenterElement.Percent;
+            this.yamuiProgressBar3.CenterText = Yamui.Framework.Controls.CenterElement.Percent;
             this.yamuiProgressBar3.Location = new System.Drawing.Point(0, 80);
             this.yamuiProgressBar3.MarqueeWidth = 50;
             this.yamuiProgressBar3.Name = "yamuiProgressBar3";
             this.yamuiProgressBar3.Progress = 30F;
             this.yamuiProgressBar3.Size = new System.Drawing.Size(540, 23);
-            this.yamuiProgressBar3.Style = YamuiFramework.Controls.ProgressStyle.Outwards;
+            this.yamuiProgressBar3.Style = Yamui.Framework.Controls.ProgressStyle.Outwards;
             this.yamuiProgressBar3.TabIndex = 24;
             // 
             // Progress

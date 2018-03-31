@@ -2,7 +2,7 @@
 
 // ========================================================================
 // Copyright (c) 2016 - Julien Caillon (julien.caillon@gmail.com)
-// This file (YamuiScrollPage.cs) is part of YamuiFramework.
+// This file (YamuiScrollPage.cs) is part of Yamui.Framework.
 // 
 // YamuiFramework is a free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -15,7 +15,7 @@
 // GNU General Public License for more details.
 // 
 // You should have received a copy of the GNU General Public License
-// along with YamuiFramework. If not, see <http://www.gnu.org/licenses/>.
+// along with Yamui.Framework. If not, see <http://www.gnu.org/licenses/>.
 // ========================================================================
 
 #endregion
@@ -24,8 +24,8 @@ using System;
 using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
-using YamuiFramework.Controls;
-using YamuiFramework.Helper;
+using Yamui.Framework.Controls;
+using Yamui.Framework.Helper;
 
 namespace YamuiDemoApp.Pages.Navigation {
     

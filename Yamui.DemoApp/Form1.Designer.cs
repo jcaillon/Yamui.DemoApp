@@ -2,7 +2,7 @@
 using YamuiDemoApp.Pages;
 using YamuiDemoApp.Pages.control;
 using YamuiDemoApp.Pages.Navigation;
-using YamuiFramework.Controls;
+using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp {
     partial class Form1 {
@@ -29,15 +29,15 @@ namespace YamuiDemoApp {
         /// the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent() {
-            this.yamuiLabel19 = new YamuiFramework.Controls.YamuiLabel();
-            this.yamuiLabel23 = new YamuiFramework.Controls.YamuiLabel();
+            this.yamuiLabel19 = new Yamui.Framework.Controls.YamuiLabel();
+            this.yamuiLabel23 = new Yamui.Framework.Controls.YamuiLabel();
             this.SuspendLayout();
             // 
             // yamuiLabel19
             // 
             this.yamuiLabel19.AutoSize = true;
             this.yamuiLabel19.Enabled = false;
-            this.yamuiLabel19.Function = YamuiFramework.Fonts.FontFunction.FormTitle;
+            this.yamuiLabel19.Function = Yamui.Framework.Fonts.FontFunction.FormTitle;
             this.yamuiLabel19.Location = new System.Drawing.Point(8, 10);
             this.yamuiLabel19.Margin = new System.Windows.Forms.Padding(5);
             this.yamuiLabel19.Name = "yamuiLabel19";

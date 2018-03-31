@@ -1,5 +1,5 @@
 ﻿using System.ComponentModel;
-using YamuiFramework.Controls;
+using Yamui.Framework.Controls;
 
 namespace YamuiDemoApp.Pages {
     partial class PageTemplate {

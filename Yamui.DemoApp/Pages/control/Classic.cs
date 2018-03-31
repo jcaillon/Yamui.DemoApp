@@ -4,12 +4,12 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
-using YamuiFramework.Animations.Transitions;
-using YamuiFramework.Controls;
-using YamuiFramework.Controls.YamuiList;
-using YamuiFramework.Forms;
-using YamuiFramework.Helper;
-using YamuiFramework.Themes;
+using Yamui.Framework.Animations.Transitions;
+using Yamui.Framework.Controls;
+using Yamui.Framework.Controls.YamuiList;
+using Yamui.Framework.Forms;
+using Yamui.Framework.Helper;
+using Yamui.Framework.Themes;
 
 namespace YamuiDemoApp.Pages.control {
     public partial class Classic : YamuiPage {
