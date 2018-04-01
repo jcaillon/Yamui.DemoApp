@@ -148,7 +148,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Yamui.Framework\Yamui.Framework.csproj">
+    <ProjectReference Include="..\Yamui.Framework\Yamui.Framework\Yamui.Framework.csproj">
       <Project>{0a4be330-b2bb-43a5-b392-15dce4736e55}</Project>
       <Name>Yamui.Framework</Name>
     </ProjectReference>
