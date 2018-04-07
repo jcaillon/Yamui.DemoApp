@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Windows.Forms;
+﻿using System.Collections.Generic;
 using YamuiDemoApp.Pages.control;
 using YamuiDemoApp.Pages.Navigation;
 using Yamui.Framework.Controls;
 using Yamui.Framework.Forms;
+using _3PA.MainFeatures.Appli.Pages.Options;
 
 namespace YamuiDemoApp {
     public partial class Form1 : YamuiMainAppli {
@@ -13,6 +12,8 @@ namespace YamuiDemoApp {
 
             CreateContent(new List<YamuiMainMenu> {
                 new YamuiMainMenu("Control", null, false, new List<YamuiSecMenu> {
+                    new YamuiSecMenu("Other", null, new ScrollBarPanel()),
+                    new YamuiSecMenu("ProfilPages", null, new ProfilesPage()),
                     new YamuiSecMenu("Classic", null, new Classic()),
                     new YamuiSecMenu("Item controls", null, new ItemControl()),
                     new YamuiSecMenu("Text", null, new Text()),
@@ -22,8 +23,7 @@ namespace YamuiDemoApp {
                     new YamuiSecMenu("yamuiTabSecAppearance", "yamuiTabSecAppearance", new Pages.SettingAppearance()),
                 }),
                 new YamuiMainMenu("Navigation", null, false, new List<YamuiSecMenu> {
-                    new YamuiSecMenu("Other", null, new UserControl1()),
-                    new YamuiSecMenu("Other", null, new UserControl3()),
+                    new YamuiSecMenu("Other", null, new ScrollBarPanel()),
                 }),
             });
 

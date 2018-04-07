@@ -1,6 +1,6 @@
 ﻿namespace YamuiDemoApp.Pages.Navigation
 {
-    partial class UserControl3
+    partial class ScrollBarPanel
     {
         /// <summary> 
         /// Required designer variable.
@@ -82,11 +82,13 @@
             this.yamuiTextBox14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox14.Location = new System.Drawing.Point(214, 410);
+            this.yamuiTextBox14.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox14.Name = "yamuiTextBox14";
             this.yamuiTextBox14.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox14.TabIndex = 127;
             this.yamuiTextBox14.Text = "yamuiTextBox14";
             this.yamuiTextBox14.WaterMark = null;
+            this.yamuiTextBox14.WordWrap = false;
             // 
             // yamuiLabel14
             // 
@@ -120,11 +122,13 @@
             this.yamuiTextBox13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox13.Location = new System.Drawing.Point(214, 381);
+            this.yamuiTextBox13.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox13.Name = "yamuiTextBox13";
             this.yamuiTextBox13.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox13.TabIndex = 124;
             this.yamuiTextBox13.Text = "yamuiTextBox13";
             this.yamuiTextBox13.WaterMark = null;
+            this.yamuiTextBox13.WordWrap = false;
             // 
             // yamuiLabel13
             // 
@@ -158,11 +162,13 @@
             this.yamuiTextBox12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox12.Location = new System.Drawing.Point(214, 352);
+            this.yamuiTextBox12.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox12.Name = "yamuiTextBox12";
             this.yamuiTextBox12.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox12.TabIndex = 121;
             this.yamuiTextBox12.Text = "yamuiTextBox12";
             this.yamuiTextBox12.WaterMark = null;
+            this.yamuiTextBox12.WordWrap = false;
             // 
             // yamuiLabel12
             // 
@@ -196,11 +202,13 @@
             this.yamuiTextBox11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox11.Location = new System.Drawing.Point(211, 323);
+            this.yamuiTextBox11.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox11.Name = "yamuiTextBox11";
             this.yamuiTextBox11.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox11.TabIndex = 118;
             this.yamuiTextBox11.Text = "yamuiTextBox11";
             this.yamuiTextBox11.WaterMark = null;
+            this.yamuiTextBox11.WordWrap = false;
             // 
             // yamuiLabel11
             // 
@@ -234,11 +242,13 @@
             this.yamuiTextBox10.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox10.Location = new System.Drawing.Point(214, 294);
+            this.yamuiTextBox10.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox10.Name = "yamuiTextBox10";
             this.yamuiTextBox10.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox10.TabIndex = 115;
             this.yamuiTextBox10.Text = "yamuiTextBox10";
             this.yamuiTextBox10.WaterMark = null;
+            this.yamuiTextBox10.WordWrap = false;
             // 
             // yamuiLabel10
             // 
@@ -272,11 +282,13 @@
             this.yamuiTextBox9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox9.Location = new System.Drawing.Point(214, 265);
+            this.yamuiTextBox9.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox9.Name = "yamuiTextBox9";
             this.yamuiTextBox9.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox9.TabIndex = 112;
             this.yamuiTextBox9.Text = "yamuiTextBox9";
             this.yamuiTextBox9.WaterMark = null;
+            this.yamuiTextBox9.WordWrap = false;
             // 
             // yamuiLabel9
             // 
@@ -310,11 +322,13 @@
             this.yamuiTextBox8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox8.Location = new System.Drawing.Point(214, 236);
+            this.yamuiTextBox8.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox8.Name = "yamuiTextBox8";
             this.yamuiTextBox8.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox8.TabIndex = 109;
             this.yamuiTextBox8.Text = "yamuiTextBox8";
             this.yamuiTextBox8.WaterMark = null;
+            this.yamuiTextBox8.WordWrap = false;
             // 
             // yamuiLabel8
             // 
@@ -348,11 +362,13 @@
             this.yamuiTextBox7.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox7.Location = new System.Drawing.Point(214, 207);
+            this.yamuiTextBox7.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox7.Name = "yamuiTextBox7";
             this.yamuiTextBox7.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox7.TabIndex = 106;
             this.yamuiTextBox7.Text = "yamuiTextBox7";
             this.yamuiTextBox7.WaterMark = null;
+            this.yamuiTextBox7.WordWrap = false;
             // 
             // yamuiLabel7
             // 
@@ -386,11 +402,13 @@
             this.yamuiTextBox6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox6.Location = new System.Drawing.Point(214, 178);
+            this.yamuiTextBox6.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox6.Name = "yamuiTextBox6";
             this.yamuiTextBox6.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox6.TabIndex = 103;
             this.yamuiTextBox6.Text = "yamuiTextBox6";
             this.yamuiTextBox6.WaterMark = null;
+            this.yamuiTextBox6.WordWrap = false;
             // 
             // yamuiLabel6
             // 
@@ -424,11 +442,13 @@
             this.yamuiTextBox5.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox5.Location = new System.Drawing.Point(214, 149);
+            this.yamuiTextBox5.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox5.Name = "yamuiTextBox5";
             this.yamuiTextBox5.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox5.TabIndex = 100;
             this.yamuiTextBox5.Text = "yamuiTextBox5";
             this.yamuiTextBox5.WaterMark = null;
+            this.yamuiTextBox5.WordWrap = false;
             // 
             // yamuiLabel5
             // 
@@ -462,11 +482,13 @@
             this.yamuiTextBox4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox4.Location = new System.Drawing.Point(214, 120);
+            this.yamuiTextBox4.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox4.Name = "yamuiTextBox4";
             this.yamuiTextBox4.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox4.TabIndex = 97;
             this.yamuiTextBox4.Text = "yamuiTextBox4";
             this.yamuiTextBox4.WaterMark = null;
+            this.yamuiTextBox4.WordWrap = false;
             // 
             // yamuiLabel4
             // 
@@ -500,11 +522,13 @@
             this.yamuiTextBox3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox3.Location = new System.Drawing.Point(214, 91);
+            this.yamuiTextBox3.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox3.Name = "yamuiTextBox3";
             this.yamuiTextBox3.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox3.TabIndex = 94;
             this.yamuiTextBox3.Text = "yamuiTextBox3";
             this.yamuiTextBox3.WaterMark = null;
+            this.yamuiTextBox3.WordWrap = false;
             // 
             // yamuiLabel3
             // 
@@ -538,11 +562,13 @@
             this.yamuiTextBox2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox2.Location = new System.Drawing.Point(214, 62);
+            this.yamuiTextBox2.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox2.Name = "yamuiTextBox2";
             this.yamuiTextBox2.Size = new System.Drawing.Size(351, 20);
             this.yamuiTextBox2.TabIndex = 91;
             this.yamuiTextBox2.Text = "yamuiTextBox2";
             this.yamuiTextBox2.WaterMark = null;
+            this.yamuiTextBox2.WordWrap = false;
             // 
             // yamuiLabel2
             // 
@@ -576,11 +602,13 @@
             this.yamuiTextBox1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.yamuiTextBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
             this.yamuiTextBox1.Location = new System.Drawing.Point(214, 33);
+            this.yamuiTextBox1.MinimumSize = new System.Drawing.Size(20, 20);
             this.yamuiTextBox1.Name = "yamuiTextBox1";
             this.yamuiTextBox1.Size = new System.Drawing.Size(768, 20);
             this.yamuiTextBox1.TabIndex = 87;
             this.yamuiTextBox1.Text = "yamuiTextBox1";
             this.yamuiTextBox1.WaterMark = null;
+            this.yamuiTextBox1.WordWrap = false;
             // 
             // yamuiLabel1
             // 
@@ -604,7 +632,7 @@
             this.yamuiButton1.TabIndex = 84;
             this.yamuiButton1.Text = "yamuiButton1";
             // 
-            // UserControl3
+            // ScrollBarPanel
             // 
             this.Controls.Add(this.yamuiTextBox14);
             this.Controls.Add(this.yamuiLabel14);
@@ -648,7 +676,7 @@
             this.Controls.Add(this.yamuiTextBox1);
             this.Controls.Add(this.yamuiLabel1);
             this.Controls.Add(this.yamuiButton1);
-            this.Name = "UserControl3";
+            this.Name = "ScrollBarPanel";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 20, 20);
             this.Size = new System.Drawing.Size(1017, 1128);
             this.ResumeLayout(false);

@@ -25,11 +25,12 @@ using System.ComponentModel;
 using System.Drawing;
 using System.Windows.Forms;
 using Yamui.Framework.Controls;
+using Yamui.Framework.Fonts;
 using Yamui.Framework.Helper;
 
 namespace YamuiDemoApp.Pages.Navigation {
     
-    public class ScrollPanelTest : YamuiControl {
+    public class ScrollHandlerExampleUsage : YamuiControl {
 
         #region fields
 
@@ -72,7 +73,7 @@ namespace YamuiDemoApp.Pages.Navigation {
 
         #region constructor
 
-        public ScrollPanelTest() {
+        public ScrollHandlerExampleUsage() {
             SetStyle(
                 ControlStyles.OptimizedDoubleBuffer |
                 ControlStyles.ResizeRedraw |
@@ -100,6 +101,11 @@ namespace YamuiDemoApp.Pages.Navigation {
             
             // paint background
             e.Graphics.Clear(Color.Black);
+            var rect = new Rectangle(0, 0, ClientRectangle.Width - VerticalScroll.BarThickness, 20);
+            TextRenderer.DrawText(e.Graphics, $"Horizontal scroll : {HorizontalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
+            rect.Y += rect.Height;
+            TextRenderer.DrawText(e.Graphics, $"Vertical scroll : {VerticalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
+
             VerticalScroll.Paint(e);
             HorizontalScroll.Paint(e);
 
@@ -116,9 +122,9 @@ namespace YamuiDemoApp.Pages.Navigation {
                     // delta negative when scrolling up
                     var delta = (short) (m.WParam.ToInt64() >> 16);
                     if (HorizontalScroll.IsHovered) {
-                        HorizontalScroll.HandleScroll(new MouseEventArgs(MouseButtons.Left, 0, 0, 0, delta));
+                        HorizontalScroll.HandleScroll(null, new MouseEventArgs(MouseButtons.Left, 0, 0, 0, delta));
                     } else {
-                        VerticalScroll.HandleScroll(new MouseEventArgs(MouseButtons.Left, 0, 0, 0, delta));
+                        VerticalScroll.HandleScroll(null, new MouseEventArgs(MouseButtons.Left, 0, 0, 0, delta));
                     }
                     return;
             }
@@ -129,7 +135,7 @@ namespace YamuiDemoApp.Pages.Navigation {
         /// Handle keydown
         /// </summary>
         protected override void OnKeyDown(KeyEventArgs e) {
-            e.Handled = HorizontalScroll.HandleKeyDown(e) || VerticalScroll.HandleKeyDown(e);
+            e.Handled = HorizontalScroll.HandleKeyDown(null, e) || VerticalScroll.HandleKeyDown(null, e);
             if (!e.Handled)
                 base.OnKeyDown(e);
         }
@@ -142,40 +148,28 @@ namespace YamuiDemoApp.Pages.Navigation {
             base.OnPreviewKeyDown(e);
         }
 
-        /// <summary>
-        /// Handle mouse wheel
-        /// </summary>
-        protected override void OnMouseWheel(MouseEventArgs e) {
-            if (HorizontalScroll.IsHovered) {
-                HorizontalScroll.HandleScroll(e);
-            } else {
-                VerticalScroll.HandleScroll(e);
-            }
-            base.OnMouseWheel(e);
-        }
-
         protected override void OnMouseDown(MouseEventArgs e) {
-            HorizontalScroll.HandleMouseDown(e);
-            VerticalScroll.HandleMouseDown(e);
+            HorizontalScroll.HandleMouseDown(null, e);
+            VerticalScroll.HandleMouseDown(null, e);
             Focus();
             base.OnMouseDown(e);
         }
 
         protected override void OnMouseUp(MouseEventArgs e) {
-            HorizontalScroll.HandleMouseUp(e);
-            VerticalScroll.HandleMouseUp(e);
+            HorizontalScroll.HandleMouseUp(null, e);
+            VerticalScroll.HandleMouseUp(null, e);
             base.OnMouseUp(e);
         }
 
         protected override void OnMouseMove(MouseEventArgs e) {
-            HorizontalScroll.HandleMouseMove(e);
-            VerticalScroll.HandleMouseMove(e);
+            HorizontalScroll.HandleMouseMove(null, e);
+            VerticalScroll.HandleMouseMove(null, e);
             base.OnMouseMove(e);
         }
 
         protected override void OnMouseLeave(EventArgs e) {
-            HorizontalScroll.HandleMouseLeave();
-            VerticalScroll.HandleMouseLeave();
+            HorizontalScroll.HandleMouseLeave(null, null);
+            VerticalScroll.HandleMouseLeave(null, null);
             base.OnMouseLeave(e);
         }
 
