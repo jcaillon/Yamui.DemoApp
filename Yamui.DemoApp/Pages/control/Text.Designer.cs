@@ -2,7 +2,7 @@
 using Yamui.Framework.Controls;
 using Yamui.Framework.HtmlRenderer.WinForms;
 
-namespace YamuiDemoApp.Pages.control {
+namespace Yamui.DemoApp.Pages.control {
     partial class Text {
         /// <summary> 
         /// Required designer variable.

@@ -17,7 +17,7 @@
 // along with 3P. If not, see <http://www.gnu.org/licenses/>.
 // ========================================================================
 #endregion
-using System;
+
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
@@ -25,7 +25,7 @@ using System.Windows.Forms;
 using Yamui.Framework.Controls;
 using Yamui.Framework.Controls.YamuiList;
 
-namespace _3PA.MainFeatures.Appli.Pages.Options {
+namespace Yamui.DemoApp.Pages.control {
 
     internal partial class ProfilesPage : YamuiPage {
 

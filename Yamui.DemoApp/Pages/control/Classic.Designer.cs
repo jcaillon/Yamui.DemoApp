@@ -1,8 +1,7 @@
-﻿using System;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp.Pages.control {
+namespace Yamui.DemoApp.Pages.control {
     partial class Classic {
         /// <summary> 
         /// Required designer variable.

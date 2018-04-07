@@ -1,7 +1,6 @@
 ﻿using System.ComponentModel;
-using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp.Pages {
+namespace Yamui.DemoApp.Pages {
     partial class PageTemplate {
         /// <summary> 
         /// Required designer variable.

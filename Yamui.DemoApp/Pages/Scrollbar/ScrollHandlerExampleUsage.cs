@@ -28,7 +28,7 @@ using Yamui.Framework.Controls;
 using Yamui.Framework.Fonts;
 using Yamui.Framework.Helper;
 
-namespace YamuiDemoApp.Pages.Navigation {
+namespace Yamui.DemoApp.Pages.Scrollbar {
     
     public class ScrollHandlerExampleUsage : YamuiControl {
 
@@ -105,6 +105,30 @@ namespace YamuiDemoApp.Pages.Navigation {
             TextRenderer.DrawText(e.Graphics, $"Horizontal scroll : {HorizontalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
             rect.Y += rect.Height;
             TextRenderer.DrawText(e.Graphics, $"Vertical scroll : {VerticalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
+
+            rect.Width = rect.Height;
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_MENU, WinApi.DrawFrameControlStates.DFCS_MENUCHECK, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_MENU, WinApi.DrawFrameControlStates.DFCS_MENUARROW, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_MENU, WinApi.DrawFrameControlStates.DFCS_MENUBULLET, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_SCROLL, WinApi.DrawFrameControlStates.DFCS_SCROLLUP | WinApi.DrawFrameControlStates.DFCS_PUSHED, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_CAPTION, WinApi.DrawFrameControlStates.DFCS_CAPTIONCLOSE | WinApi.DrawFrameControlStates.DFCS_FLAT | WinApi.DrawFrameControlStates.DFCS_MONO, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFrameControl(e.Graphics, rect, WinApi.DrawFrameControlTypes.DFC_CAPTION, WinApi.DrawFrameControlStates.DFCS_CAPTIONMAX | WinApi.DrawFrameControlStates.DFCS_MONO, Color.Red, Color.Black);
+            rect.Y += rect.Height;
+            PaintHelper.DrawFlatCheckBox(e.Graphics, rect, Color.Red, Color.Black, ButtonState.Checked);
+
+            rect.Y += rect.Height;
+            rect.Width = rect.Height = 100;
+            PaintHelper.DrawFlatCheckBox(e.Graphics, rect, Color.Red, Color.Black, ButtonState.Checked);
+            
+            rect.Y += rect.Height;
+            rect.Width = rect.Height = 50;
+            PaintHelper.DrawFlatCheckBox(e.Graphics, rect, Color.Red, Color.Black, ButtonState.Checked);
 
             VerticalScroll.Paint(e);
             HorizontalScroll.Paint(e);

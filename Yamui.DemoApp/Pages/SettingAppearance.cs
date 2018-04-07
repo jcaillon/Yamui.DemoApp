@@ -3,11 +3,9 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 using Yamui.Framework.Controls;
-using Yamui.Framework.Helper;
-using Yamui.Framework.HtmlRenderer.WinForms;
 using Yamui.Framework.Themes;
 
-namespace YamuiDemoApp.Pages {
+namespace Yamui.DemoApp.Pages {
     public partial class SettingAppearance : YamuiPage {
 
         private static YamuiColorRadioButton _checkButton;

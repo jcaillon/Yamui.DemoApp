@@ -1,11 +1,10 @@
 ﻿using System.Collections.Generic;
-using YamuiDemoApp.Pages.control;
-using YamuiDemoApp.Pages.Navigation;
+using Yamui.DemoApp.Pages.control;
+using Yamui.DemoApp.Pages.Scrollbar;
 using Yamui.Framework.Controls;
 using Yamui.Framework.Forms;
-using _3PA.MainFeatures.Appli.Pages.Options;
 
-namespace YamuiDemoApp {
+namespace Yamui.DemoApp {
     public partial class Form1 : YamuiMainAppli {
         public Form1() {
             InitializeComponent();

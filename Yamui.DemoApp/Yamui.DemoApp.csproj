@@ -91,14 +91,14 @@
     <Compile Include="Pages\Scrollbar\ScrollBarPanel.Designer.cs">
       <DependentUpon>ScrollBarPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Navigation\UserControl1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Pages\Navigation\UserControl1.Designer.cs">
-      <DependentUpon>UserControl1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Pages\Scrollbar\ScrollHandlerExampleUsage.cs">
       <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Pages\Scrollbar\UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Pages\Scrollbar\UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
     <Compile Include="Pages\SettingAppearance.cs">
       <SubType>UserControl</SubType>
@@ -140,7 +140,7 @@
     <EmbeddedResource Include="Pages\Scrollbar\ScrollBarPanel.resx">
       <DependentUpon>ScrollBarPanel.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pages\Navigation\UserControl1.resx">
+    <EmbeddedResource Include="Pages\Scrollbar\UserControl1.resx">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Pages\SettingAppearance.resx">
@@ -166,13 +166,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\Images\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Yamui.Framework\Yamui.Framework\Yamui.Framework.csproj">
       <Project>{0a4be330-b2bb-43a5-b392-15dce4736e55}</Project>
       <Name>Yamui.Framework</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\Images\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

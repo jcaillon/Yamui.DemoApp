@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp.Pages.control {
+namespace Yamui.DemoApp.Pages.control {
     partial class ItemControl {
         /// <summary> 
         /// Required designer variable.
@@ -70,7 +70,6 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiComboBox1.SetImgSize = new System.Drawing.Size(0, 0);
             this.yamuiComboBox1.Size = new System.Drawing.Size(121, 21);
             this.yamuiComboBox1.TabIndex = 26;
-            this.yamuiComboBox1.Text = "test1";
             this.yamuiComboBox1.WaterMark = "Water mark !";
             // 
             // yamuiLabel7
@@ -89,7 +88,6 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiTrackBar1.Name = "yamuiTrackBar1";
             this.yamuiTrackBar1.Size = new System.Drawing.Size(212, 23);
             this.yamuiTrackBar1.TabIndex = 23;
-            this.yamuiTrackBar1.Text = "yamuiTrackBar1";
             // 
             // yamuiTrackBar2
             // 
@@ -98,7 +96,6 @@ namespace YamuiDemoApp.Pages.control {
             this.yamuiTrackBar2.Name = "yamuiTrackBar2";
             this.yamuiTrackBar2.Size = new System.Drawing.Size(191, 23);
             this.yamuiTrackBar2.TabIndex = 24;
-            this.yamuiTrackBar2.Text = "yamuiTrackBar2";
             // 
             // ItemControl
             // 
@@ -112,7 +109,6 @@ namespace YamuiDemoApp.Pages.control {
             this.Name = "ItemControl";
             this.Size = new System.Drawing.Size(715, 315);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 

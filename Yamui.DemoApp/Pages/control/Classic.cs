@@ -8,10 +8,9 @@ using Yamui.Framework.Animations.Transitions;
 using Yamui.Framework.Controls;
 using Yamui.Framework.Controls.YamuiList;
 using Yamui.Framework.Forms;
-using Yamui.Framework.Helper;
 using Yamui.Framework.Themes;
 
-namespace YamuiDemoApp.Pages.control {
+namespace Yamui.DemoApp.Pages.control {
     public partial class Classic : YamuiPage {
         public Classic() {
             InitializeComponent();

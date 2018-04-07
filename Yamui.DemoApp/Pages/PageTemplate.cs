@@ -1,7 +1,7 @@
 ﻿using System.Windows.Forms;
 using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp.Pages {
+namespace Yamui.DemoApp.Pages {
     public partial class PageTemplate : YamuiPage {
 
         #region fields

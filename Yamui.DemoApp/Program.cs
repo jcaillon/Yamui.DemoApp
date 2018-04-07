@@ -3,7 +3,7 @@ using System.Windows.Forms;
 using Yamui.Framework.Forms;
 using Yamui.Framework.Themes;
 
-namespace YamuiDemoApp {
+namespace Yamui.DemoApp {
 
     public class ColorScheme {
         public string Name = "Default";

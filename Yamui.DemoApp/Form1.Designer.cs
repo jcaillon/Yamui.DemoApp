@@ -1,10 +1,7 @@
 ﻿using System.ComponentModel;
-using YamuiDemoApp.Pages;
-using YamuiDemoApp.Pages.control;
-using YamuiDemoApp.Pages.Navigation;
 using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp {
+namespace Yamui.DemoApp {
     partial class Form1 {
         /// <summary>
         /// Required designer variable.

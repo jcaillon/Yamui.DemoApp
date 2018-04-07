@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Yamui.Framework.Controls;
 
-namespace YamuiDemoApp.Pages {
+namespace Yamui.DemoApp.Pages {
     partial class SettingAppearance {
         /// <summary> 
         /// Required designer variable.

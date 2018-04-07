@@ -2,7 +2,7 @@
 using Yamui.Framework.Controls;
 using Yamui.Framework.Controls.YamuiList;
 
-namespace _3PA.MainFeatures.Appli.Pages.Options {
+namespace Yamui.DemoApp.Pages.control {
     partial class ProfilesPage {
         /// <summary> 
         /// Required designer variable.
