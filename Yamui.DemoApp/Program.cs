@@ -30,7 +30,7 @@ namespace Yamui.DemoApp {
             MainForm = new Form1();
             //Thread.Sleep(1000);
 
-            Application.Run(new Form2());
+            Application.Run(new Form1());
 
         }
     }
