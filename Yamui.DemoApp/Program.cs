@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 using System.Windows.Forms;
 using Yamui.Framework.Forms;
 using Yamui.Framework.Themes;
@@ -27,8 +28,9 @@ namespace Yamui.DemoApp {
 
             YamuiThemeManager.TabAnimationAllowed = true;
             MainForm = new Form1();
+            //Thread.Sleep(1000);
 
-            Application.Run(MainForm);
+            Application.Run(new Form2());
 
         }
     }

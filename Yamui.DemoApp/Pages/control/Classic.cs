@@ -59,11 +59,7 @@ namespace Yamui.DemoApp.Pages.control {
                 frm.ShowDialog(this);
             } // panel will be disposed and the form will "lighten" again...
         }
-
-        private void yamuiCharButton5_Click(object sender, EventArgs e) {
-
-        }
-
+        
         private void yamuiButton5_ButtonPressed(object sender, EventArgs e) {
             yamuiButton4.UseCustomBackColor = true;
             Transition.run(yamuiButton4, "BackColor", YamuiThemeManager.Current.ButtonNormalBack, YamuiThemeManager.Current.AccentColor, new TransitionType_Flash(3, 300), (o, args) => { yamuiButton4.UseCustomBackColor = false; });
@@ -108,6 +104,34 @@ namespace Yamui.DemoApp.Pages.control {
             POINT lpPoint;
             GetCursorPos(out lpPoint);
             return new Point(lpPoint.x, lpPoint.y);
+        }
+
+        private void yamuiButton1_ButtonPressed(object sender, EventArgs e)
+        {
+            (FindForm() as YamuiFormBaseShadow)?.DisableDwmComposition();
+        }
+
+        private void yamuiCharButton5_ButtonPressed(object sender, EventArgs e)
+        {
+            var menu = new YamuiWaterfallMenu(Cursor.Position, new List<YamuiMenuItem> {
+                new YamuiMenuItem {
+                    DisplayText = "zefefzefzef zedf item 1",
+                    Children = new List<FilteredTypeTreeListItem> {
+                        new YamuiMenuItem {DisplayText = "child 1"}
+                    }
+                },
+                new YamuiMenuItem {
+                    DisplayText = "item 2",
+                },
+                new YamuiMenuItem {
+                    DisplayText = "item 3",
+                    Children = new List<FilteredTypeTreeListItem> {
+                        new YamuiMenuItem {DisplayText = "child 1"},
+                        new YamuiMenuItem {DisplayText = "child 2"}
+                    }
+                }
+            });
+            menu.Show();
         }
     }
 }

@@ -69,6 +69,7 @@ namespace Yamui.DemoApp.Pages.control {
             this.yamuiCharButton5.Size = new System.Drawing.Size(30, 30);
             this.yamuiCharButton5.TabIndex = 63;
             this.yamuiCharButton5.Text = "yamuiCharButton5";
+            this.yamuiCharButton5.ButtonPressed += new System.EventHandler<System.EventArgs>(this.yamuiCharButton5_ButtonPressed);
             // 
             // yamuiCharButton4
             // 
@@ -368,6 +369,7 @@ namespace Yamui.DemoApp.Pages.control {
             this.yamuiButton1.Size = new System.Drawing.Size(123, 24);
             this.yamuiButton1.TabIndex = 42;
             this.yamuiButton1.Text = "Standard button";
+            this.yamuiButton1.ButtonPressed += new System.EventHandler<System.EventArgs>(this.yamuiButton1_ButtonPressed);
             // 
             // Classic
             // 
