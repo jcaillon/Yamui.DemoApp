@@ -1,3 +1,4 @@
 [submodule "Yamui.Framework"]
 	path = Yamui.Framework
 	url = https://github.com/jcaillon/Yamui.Framework.git
+	branch = master
