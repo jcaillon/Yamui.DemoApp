@@ -27,10 +27,10 @@ namespace Yamui.DemoApp {
             Application.SetCompatibleTextRenderingDefault(false);
 
             YamuiThemeManager.TabAnimationAllowed = true;
-            MainForm = new Form1();
+            //MainForm = new Form1();
             //Thread.Sleep(1000);
 
-            Application.Run(new Form1());
+            Application.Run(new Form2());
 
         }
     }
