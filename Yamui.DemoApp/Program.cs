@@ -30,8 +30,15 @@ namespace Yamui.DemoApp {
             //MainForm = new Form1();
             //Thread.Sleep(1000);
 
-            Application.Run(new Form2());
+            Application.Run(new YamuiFormBaseShadow2());
 
+            /*
+             *  HwndSource hwndSource = HwndSource.FromHwnd(_parentWindowHndl);
+            if (hwndSource != null)
+            {
+                hwndSource.AddHook(WndProc);
+            }
+             */
         }
     }
 
