@@ -108,7 +108,6 @@ namespace Yamui.DemoApp.Pages.control {
 
         private void yamuiButton1_ButtonPressed(object sender, EventArgs e)
         {
-            (FindForm() as YamuiFormBase)?.DisableDwmComposition();
         }
 
         private void yamuiCharButton5_ButtonPressed(object sender, EventArgs e)
