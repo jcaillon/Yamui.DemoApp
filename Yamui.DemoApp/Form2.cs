@@ -11,7 +11,7 @@ using Yamui.Framework.Forms;
 
 namespace Yamui.DemoApp
 {
-    public partial class Form2 : YamuiFormBase
+    public partial class Form2 : YamuiForm
     {
         public Form2()
         {

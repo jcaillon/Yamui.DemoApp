@@ -141,7 +141,7 @@ namespace Yamui.DemoApp.Pages.Scrollbar {
 
         protected override void WndProc(ref Message m) {
             switch (m.Msg) {
-                case (int) WinApi.Messages.WM_MOUSEWHEEL:
+                case (int) Window.Msg.WM_MOUSEWHEEL:
                     // delta negative when scrolling up
                     // delta negative when scrolling up
                     var delta = (short) (m.WParam.ToInt64() >> 16);

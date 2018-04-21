@@ -30,7 +30,8 @@ namespace Yamui.DemoApp {
             //MainForm = new Form1();
             //Thread.Sleep(1000);
 
-            Application.Run(new YamuiFormBaseShadow2());
+            //Application.Run(new YamuiFormShadow(0));
+            Application.Run(new YamuiFormShadow(YamuiForm.YamuiFormOption.WithShadow));
 
             /*
              *  HwndSource hwndSource = HwndSource.FromHwnd(_parentWindowHndl);
