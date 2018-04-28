@@ -26,12 +26,12 @@ namespace Yamui.DemoApp {
             // https://stackoverflow.com/questions/8283631/graphics-drawstring-vs-textrenderer-drawtextwhich-can-deliver-better-quality
             Application.SetCompatibleTextRenderingDefault(false);
 
-            YamuiThemeManager.TabAnimationAllowed = true;
+            YamuiThemeManager.TabAnimationAllowed = false;
             //MainForm = new Form1();
             //Thread.Sleep(1000);
 
             //Application.Run(new YamuiFormShadow(0));
-            Application.Run(new Form2());
+            Application.Run(new Form1());
 
             /*
              *  HwndSource hwndSource = HwndSource.FromHwnd(_parentWindowHndl);

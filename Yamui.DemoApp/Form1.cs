@@ -8,7 +8,7 @@ namespace Yamui.DemoApp {
     public partial class Form1 : YamuiMainAppli {
         public Form1() {
             InitializeComponent();
-
+            
             CreateContent(new List<YamuiMainMenu> {
                 new YamuiMainMenu("Control", null, false, new List<YamuiSecMenu> {
                     new YamuiSecMenu("Other", null, new ScrollBarPanel()),
@@ -42,6 +42,7 @@ namespace Yamui.DemoApp {
                         break;
                 }
             });
+            
         }
     }
 }

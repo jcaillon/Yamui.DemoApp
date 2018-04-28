@@ -11,10 +11,10 @@ using Yamui.Framework.Forms;
 
 namespace Yamui.DemoApp
 {
-    public partial class Form2 : YamuiFormShadow
+    public partial class Form2 : YamuiMainAppli
     {
-        public Form2() : base(YamuiFormOption.WithShadow)
-        {
+        public Form2() {
+            CloseAllBox = true;
             InitializeComponent();
         }
 
