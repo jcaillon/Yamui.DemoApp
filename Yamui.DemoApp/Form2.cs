@@ -11,14 +11,18 @@ using Yamui.Framework.Forms;
 
 namespace Yamui.DemoApp
 {
-    public partial class Form2 : YamuiFormButtons
+    public partial class Form2 : YamuiMainAppli
     {
-        public Form2(): base(YamuiFormOption.IsPopup | YamuiFormOption.WithShadow | YamuiFormOption.AlwaysOnTop | YamuiFormOption.DontShowInAltTab | YamuiFormOption.DontActivateOnShow) {
-            CloseAllBox = true;
-            Movable = false;
-            Resizable = false;
+        public Form2() {
             InitializeComponent();
         }
 
+        private void yamuiButton1_ButtonPressed(object sender, EventArgs e)
+        {
+            var toastNotification = new YamuiNotification("title", "<img src='high_importance' />This is a notification test", 5);
+            toastNotification.Show();
+            var toastNotification2 = new YamuiNotification("title", "<img src='poison' />Can i display a link? <br><a href='plswork?'>yop</a>", 0);
+            toastNotification2.Show();
+        }
     }
 }
