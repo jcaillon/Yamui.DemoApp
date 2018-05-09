@@ -70,7 +70,7 @@
             this.yamuiTextBox1 = new Yamui.Framework.Controls.YamuiTextBox();
             this.yamuiLabel1 = new Yamui.Framework.Controls.YamuiLabel();
             this.yamuiButton1 = new Yamui.Framework.Controls.YamuiButton();
-            this.scrollHandlerExampleUsage1 = new Yamui.DemoApp.Pages.Scrollbar.ScrollHandlerExampleUsage();
+            this._yamuiScrollControlExampleUsage1 = new Yamui.DemoApp.Pages.Scrollbar.YamuiScrollControlExampleUsage();
             this.SuspendLayout();
             // 
             // yamuiTextBox14
@@ -635,14 +635,14 @@
             // 
             // scrollHandlerExampleUsage1
             // 
-            this.scrollHandlerExampleUsage1.Location = new System.Drawing.Point(4, 4);
-            this.scrollHandlerExampleUsage1.Name = "scrollHandlerExampleUsage1";
-            this.scrollHandlerExampleUsage1.Size = new System.Drawing.Size(597, 379);
-            this.scrollHandlerExampleUsage1.TabIndex = 128;
+            this._yamuiScrollControlExampleUsage1.Location = new System.Drawing.Point(4, 4);
+            this._yamuiScrollControlExampleUsage1.Name = "_yamuiScrollControlExampleUsage1";
+            this._yamuiScrollControlExampleUsage1.Size = new System.Drawing.Size(597, 379);
+            this._yamuiScrollControlExampleUsage1.TabIndex = 128;
             // 
             // ScrollBarPanel
             // 
-            this.Controls.Add(this.scrollHandlerExampleUsage1);
+            this.Controls.Add(this._yamuiScrollControlExampleUsage1);
             this.Controls.Add(this.yamuiTextBox14);
             this.Controls.Add(this.yamuiLabel14);
             this.Controls.Add(this.yamuiButton14);
@@ -736,6 +736,6 @@
         private Yamui.Framework.Controls.YamuiTextBox yamuiTextBox1;
         private Yamui.Framework.Controls.YamuiLabel yamuiLabel1;
         private Yamui.Framework.Controls.YamuiButton yamuiButton1;
-        private ScrollHandlerExampleUsage scrollHandlerExampleUsage1;
+        private YamuiScrollControlExampleUsage _yamuiScrollControlExampleUsage1;
     }
 }

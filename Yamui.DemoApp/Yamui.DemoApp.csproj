@@ -97,7 +97,7 @@
     <Compile Include="Pages\Scrollbar\ScrollBarPanel.Designer.cs">
       <DependentUpon>ScrollBarPanel.cs</DependentUpon>
     </Compile>
-    <Compile Include="Pages\Scrollbar\ScrollHandlerExampleUsage.cs">
+    <Compile Include="Pages\Scrollbar\YamuiScrollControlExampleUsage.cs">
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Pages\Scrollbar\UserControl1.cs">

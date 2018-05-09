@@ -108,7 +108,6 @@ namespace Yamui.DemoApp.Pages.control {
             // 
             // htmlPanel1
             // 
-            this.htmlPanel1.BaseStylesheet = null;
             this.htmlPanel1.Location = new System.Drawing.Point(347, 80);
             this.htmlPanel1.Name = "htmlPanel1";
             this.htmlPanel1.Size = new System.Drawing.Size(338, 224);
@@ -119,7 +118,6 @@ namespace Yamui.DemoApp.Pages.control {
             // 
             this.htmlLabel1.AutoSize = false;
             this.htmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.htmlLabel1.BaseStylesheet = null;
             this.htmlLabel1.Location = new System.Drawing.Point(316, 40);
             this.htmlLabel1.Name = "htmlLabel1";
             this.htmlLabel1.Size = new System.Drawing.Size(271, 63);
