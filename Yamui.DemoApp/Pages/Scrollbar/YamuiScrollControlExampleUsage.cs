@@ -31,27 +31,30 @@ namespace Yamui.DemoApp.Pages.Scrollbar {
     
     public class YamuiScrollControlExampleUsage : YamuiScrollControl {
 
-        public YamuiScrollControlExampleUsage() {
-            _vScroll = true;
-            _hScroll = true;
-            VerticalScroll.Enabled = true;
-            HorizontalScroll.Enabled = true;
-        }
+
 
         protected override Size GetNaturalSize() {
+            // if you specify an empty, the scrollbars will not show since the available
+            // space will always be superior to the natural size of the content
             return new Size(500, 1000);
+        }
+
+        protected override void OnMouseDoubleClick(MouseEventArgs e) {
+            base.OnMouseDoubleClick(e);
+            HasBorder = true;
         }
 
         #region Paint
 
         protected override void PaintContent(PaintEventArgs e) {
             // paint background
-            e.Graphics.Clear(Color.Black);
+            base.PaintContent(e);
+            e.Graphics.SetClip(ContentRectangle);
             var rect = new Rectangle(0, 0, ClientRectangle.Width - VerticalScroll.BarThickness, 20);
             rect.Y = -VerticalScroll.Value;
-            TextRenderer.DrawText(e.Graphics, $"Horizontal scroll : {HorizontalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
+            TextRenderer.DrawText(e.Graphics, $"Horizontal scroll : {HorizontalScroll}", FontManager.GetStandardFont(), rect, Color.Blue, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
             rect.Y += rect.Height;
-            TextRenderer.DrawText(e.Graphics, $"Vertical scroll : {VerticalScroll}", FontManager.GetStandardFont(), rect, Color.AntiqueWhite, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
+            TextRenderer.DrawText(e.Graphics, $"Vertical scroll : {VerticalScroll}", FontManager.GetStandardFont(), rect, Color.Blue, FontManager.GetTextFormatFlags(ContentAlignment.MiddleLeft));
 
             rect.Width = rect.Height;
             rect.Y += rect.Height;
@@ -76,6 +79,7 @@ namespace Yamui.DemoApp.Pages.Scrollbar {
             rect.Y += rect.Height;
             rect.Width = rect.Height = 50;
             PaintHelper.DrawFlatCheckBox(e.Graphics, rect, Color.Red, Color.Black, ButtonState.Checked);
+            e.Graphics.SetClip(e.ClipRectangle);
         }
 
         #endregion

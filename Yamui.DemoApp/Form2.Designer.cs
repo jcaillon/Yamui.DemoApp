@@ -30,24 +30,33 @@ namespace Yamui.DemoApp
         /// </summary>
         private void InitializeComponent()
         {
-            this.htmlLabel1 = new YamuiHtml();
+            this.htmlLabel1 = new Yamui.Framework.Controls.YamuiHtml();
             this._yamuiScrollControlExampleUsage1 = new Yamui.DemoApp.Pages.Scrollbar.YamuiScrollControlExampleUsage();
             this.SuspendLayout();
             // 
             // htmlLabel1
             // 
-            this.htmlLabel1.Location = new System.Drawing.Point(20, 43);
+            this.htmlLabel1.AutoScroll = true;
+            this.htmlLabel1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
+            this.htmlLabel1.AutoScrollPosition = new System.Drawing.Point(0, 0);
+            this.htmlLabel1.AutoSize = true;
+            this.htmlLabel1.AutoSizeHeightOnly = false;
+            this.htmlLabel1.HScroll = true;
+            this.htmlLabel1.Location = new System.Drawing.Point(6, 5);
             this.htmlLabel1.Name = "htmlLabel1";
+            this.htmlLabel1.ScrollBarWidth = 12;
             this.htmlLabel1.Size = new System.Drawing.Size(59, 15);
             this.htmlLabel1.TabIndex = 0;
             this.htmlLabel1.TabStop = false;
-            this.htmlLabel1.Text = "htmlLabel1";
+            this.htmlLabel1.Text = "htmlLabel<br>bouh";
+            this.htmlLabel1.VScroll = true;
             // 
-            // scrollHandlerExampleUsage1
+            // _yamuiScrollControlExampleUsage1
             // 
             this._yamuiScrollControlExampleUsage1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this._yamuiScrollControlExampleUsage1.AutoScroll = true;
             this._yamuiScrollControlExampleUsage1.AutoScrollMinSize = new System.Drawing.Size(0, 0);
             this._yamuiScrollControlExampleUsage1.AutoScrollPosition = new System.Drawing.Point(0, 0);
             this._yamuiScrollControlExampleUsage1.HScroll = true;
