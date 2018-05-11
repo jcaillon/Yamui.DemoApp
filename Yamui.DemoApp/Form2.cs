@@ -17,6 +17,8 @@ namespace Yamui.DemoApp
         public Form2() {
             InitializeComponent();
 
+            CloseAllBox = true;
+
             htmlLabel1.HasBorder = true;
             htmlLabel1.AutoSize = false;
             htmlLabel1.AutoSizeHeightOnly = false;
