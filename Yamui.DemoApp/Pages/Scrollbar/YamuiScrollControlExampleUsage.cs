@@ -33,7 +33,7 @@ namespace Yamui.DemoApp.Pages.Scrollbar {
 
 
 
-        protected override Size GetNaturalSize() {
+        protected override Size GetContentNaturalSize() {
             // if you specify an empty, the scrollbars will not show since the available
             // space will always be superior to the natural size of the content
             return new Size(500, 1000);
