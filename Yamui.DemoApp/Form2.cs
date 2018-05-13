@@ -19,13 +19,14 @@ namespace Yamui.DemoApp
 
             CloseAllBox = true;
 
-            _yamuiScrollControlExampleUsage1.Visible = false;
+            //_yamuiScrollControlExampleUsage1.Visible = false;
 
+            htmlLabel1.Padding = new Padding(5);
             htmlLabel1.HasBorder = true;
-            htmlLabel1.AutoSize = true;
+            htmlLabel1.AutoSize = false;
             htmlLabel1.AutoSizeHeightOnly = false;
             htmlLabel1.Text = "fuckkkk<br>second ligiiiiiiiiiiiiiiiiiiiiine";
-            //htmlLabel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
+            htmlLabel1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Top;
 
             htmlLabel1.Text = @"<h1>FastColoredTextBox</h1><br>
             Fast Colored TextBox is text editor component for .NET. Allows you to create custom text editor with syntax highlighting. It works well with small, medium, large and very-very large files.
